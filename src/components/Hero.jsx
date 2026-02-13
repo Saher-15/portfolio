@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
-import myPhoto from "../assets/saher.jpeg";
+import myPhoto from "../assets/Saher.jpeg";
 
 export function Hero() {
   return (
