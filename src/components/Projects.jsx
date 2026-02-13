@@ -6,21 +6,21 @@ const projects = [
     desc: "Responsive website with live events, donation flow, and PayPal integration.",
     stack: ["React", "Node.js", "PayPal API", "Responsive UI"],
     live: "https://nazarethholycross.com",
-    repo: "https://github.com/",
+    repo: "https://github.com/saher-15",
   },
   {
     title: "Shop & Cart System",
     desc: "Product pages, cart behavior, checkout UX improvements, and UI styling.",
     stack: ["React", "State Management", "CSS", "UX"],
-    live: "https://example.com",
-    repo: "https://github.com/",
+    live: "https://siwarafashion.netlify.app",
+    repo: "https://github.com/saher-15",
   },
   {
     title: "Portfolio Website (This)",
     desc: "One-page personal portfolio with responsive layout and easy editing.",
     stack: ["React", "CSS", "Responsive"],
     live: "#home",
-    repo: "https://github.com/",
+    repo: "https://github.com/Saher-15/portfolio",
   },
 ];
 
