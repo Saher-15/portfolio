@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { CVModal } from "./CVModal";
 
 export function Contact() {
+  const [openCV, setOpenCV] = useState(false);
+
   return (
     <section className="section" id="contact">
       <div className="container">
@@ -34,17 +38,19 @@ export function Contact() {
                 <FaGithub /> GitHub
               </a>
 
-              <a
+              {/* ✅ Open CV modal */}
+              <button
                 className="btn btnPrimary"
-                href="public/Saher_Saadi_CV.pdf"
-                target="_blank"
-                rel="noreferrer"
+                onClick={() => setOpenCV(true)}
               >
                 📄 View CV
-              </a>
+              </button>
             </div>
           </div>
         </div>
+
+        {/* CV POPUP */}
+        <CVModal open={openCV} onClose={() => setOpenCV(false)} />
       </div>
     </section>
   );
