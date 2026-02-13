@@ -15,7 +15,7 @@ export function Contact() {
     setStatus("sending");
 
     try {
-      const res = await fetch("http://localhost:5001/api/contact", {
+      const res = await fetch("https://portfolio-tepn.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -95,13 +95,13 @@ export function Contact() {
               </a>
               <a
                 className="btn"
-                href="https://linkedin.com/in/sahersaadi"
+                href="https://www.linkedin.com/in/saher-saadi-a637b11b5/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin /> LinkedIn
               </a>
-              <a className="btn" href="https://github.com/" target="_blank" rel="noreferrer">
+              <a className="btn" href="https://github.com/saher-15" target="_blank" rel="noreferrer">
                 <FaGithub /> GitHub
               </a>
               <p style={{ margin: 0, color: "rgba(255,255,255,0.72)", lineHeight: 1.7 }}>
