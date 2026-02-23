@@ -29,9 +29,7 @@ export function Projects() {
     <section className="section" id="projects">
       <div className="container">
         <h2 className="sectionTitle">Projects</h2>
-        <p className="sectionSub">
-          Replace the demo links with your real GitHub + live URLs. Add screenshots later if you want.
-        </p>
+        
 
         <div className="grid3">
           {projects.map((p) => (
