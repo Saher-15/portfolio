@@ -6,6 +6,8 @@ const skills = {
     "CSS3",
     "Bootstrap",
     "Responsive Design",
+    "API Consumption",
+    "State Management",
   ],
   Backend: [
     "Node.js",
@@ -14,8 +16,16 @@ const skills = {
     "MVC Architecture",
     "Microservices",
     "JWT Authentication",
+    "Secure Cookies (HTTP‑Only)",
+    "Email Verification Flow",
+    "Password Reset Flow",
   ],
-  Databases: ["MongoDB", "SQL"],
+  Databases: [
+    "MongoDB",
+    "Mongoose",
+    "SQL",
+    "Schema Design",
+  ],
   Programming: [
     "Java",
     "Python",
@@ -26,6 +36,8 @@ const skills = {
   ],
   AI_ModernTech: [
     "AI Fundamentals",
+    "OpenAI API",
+    "Prompt Engineering",
     "API Integrations",
     "Automation Tools",
   ],
@@ -33,8 +45,11 @@ const skills = {
     "Git",
     "Linux/Unix",
     "Postman",
+    "Mailjet API",
     "PayPal API",
     "Docker (Basic)",
+    "Netlify Deployment",
+    "Render Deployment",
   ],
   Concepts: [
     "OOP",
@@ -42,10 +57,13 @@ const skills = {
     "Algorithms",
     "Client-Server Architecture",
     "Networking",
+    "Authentication & Authorization",
+    "Security Best Practices",
     "JSON",
     "XML",
   ],
 };
+
 
 export function Skills() {
   return (

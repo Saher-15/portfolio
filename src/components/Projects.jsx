@@ -1,6 +1,13 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
+    {
+    title: "AI Travel Planner",
+    desc: "Full-stack AI-powered travel planner with authentication, email verification, password reset, and itinerary generation using OpenAI.",
+    stack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "Mailjet", "JWT Auth"],
+    live: "https://travelplanner-ai.netlify.app",
+    repo: "https://github.com/Saher-15/Ai-Travel-Planner-Client",
+  },
   {
     title: "Nazareth Holy Cross Website",
     desc: "Responsive website with live events, donation flow, and PayPal integration.",

@@ -5,6 +5,7 @@ export function Hero() {
   return (
     <section className="hero" id="home">
       <div className="container heroGrid">
+        
         {/* LEFT CARD */}
         <div className="card">
           <h1 className="heroTitle">
@@ -13,9 +14,11 @@ export function Hero() {
           </h1>
 
           <p className="heroText">
-            I build responsive web apps using React, Node.js, and REST APIs.
-            Master’s degree in Software Engineering (GPA 94). I enjoy clean UI,
-            real-world features, and learning fast.
+            I build modern, responsive, and production‑ready web applications using 
+            React, Node.js, Express, and MongoDB. I enjoy turning real‑world ideas 
+            into clean, reliable features — from authentication and APIs to AI‑powered 
+            tools and polished UI. I hold a Master’s degree in Software Engineering 
+            (GPA 94).
           </p>
 
           <div className="actions">
@@ -50,41 +53,40 @@ export function Hero() {
             <span className="pill">React</span>
             <span className="pill">Node.js</span>
             <span className="pill">Express</span>
-            <span className="pill">MongoDB / SQL</span>
-            <span className="pill">Responsive UI</span>
+            <span className="pill">MongoDB</span>
+            <span className="pill">REST APIs</span>
+            <span className="pill">Authentication</span>
             <span className="pill">AI Integrations</span>
+            <span className="pill">Responsive UI</span>
           </div>
         </div>
 
-        {/* RIGHT CARD (PHOTO + INFO) */}
+        {/* RIGHT CARD */}
         <div className="card">
           <div className="heroPhotoWrap">
-            <img
-              className="heroPhoto"
-              src={myPhoto}
-              alt="Saher Saadi"
-            />
+            <img className="heroPhoto" src={myPhoto} alt="Saher Saadi" />
           </div>
 
           <div className="kpiGrid">
             <div className="kpi">
               <strong>Focus</strong>
-              <span>Modern web apps, clean UX, production-ready code</span>
+              <span>Full‑stack apps, clean UX, scalable backend systems</span>
             </div>
 
             <div className="kpi">
               <strong>Strengths</strong>
               <span>
-                React UI, REST APIs, component organization, responsiveness
+                React UI, API design, authentication, database modeling, AI features
               </span>
             </div>
 
             <div className="kpi">
               <strong>Based in</strong>
-              <span>Israel (open to remote / relocation)</span>
+              <span>Israel (open to remote & relocation)</span>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );
