@@ -10,15 +10,15 @@ export function Hero() {
         <div className="card">
           <h1 className="heroTitle">
             Hi, I’m <span>Saher</span> — <br />
-            Junior Full Stack Developer
+            Junior Software Engineer & AI Developer
           </h1>
 
           <p className="heroText">
-            I build modern, responsive, and production‑ready web applications using 
-            React, Node.js, Express, and MongoDB. I enjoy turning real‑world ideas 
-            into clean, reliable features — from authentication and APIs to AI‑powered 
-            tools and polished UI. I hold a Master’s degree in Software Engineering 
-            (GPA 94).
+            I build modern, scalable systems using JavaScript (React, Node.js), Java, Python,
+            and backend technologies while also delivering AI-enabled workflows and n8n automation.
+            I enjoy turning real‑world ideas into clean, reliable features — from APIs and
+            data processing to generative AI and production deployments. I graduated with a
+            B.Sc. in 2024 and will complete my M.Sc. in Software Engineering in June 2026 (GPA 94).
           </p>
 
           <div className="actions">
@@ -54,10 +54,15 @@ export function Hero() {
             <span className="pill">Node.js</span>
             <span className="pill">Express</span>
             <span className="pill">MongoDB</span>
-            <span className="pill">REST APIs</span>
-            <span className="pill">Authentication</span>
-            <span className="pill">AI Integrations</span>
-            <span className="pill">Responsive UI</span>
+            <span className="pill">Java</span>
+            <span className="pill">Python</span>
+            <span className="pill">C#</span>
+            <span className="pill">AI / OpenAI</span>
+            <span className="pill">RAG Systems</span>
+            <span className="pill">n8n</span>
+            <span className="pill">Automation</span>
+            <span className="pill">Docker</span>
+            <span className="pill">Git</span>
           </div>
         </div>
 

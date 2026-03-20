@@ -1,10 +1,23 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const projects = [
-    {
+  {
+    title: "RAG System Project",
+    desc: "Backend-focused RAG platform with FastAPI, ChromaDB semantic embeddings, Claude for generation, and SSE streaming responses.",
+    stack: [
+      "Python",
+      "FastAPI",
+      "ChromaDB",
+      "Anthropic Claude",
+      "RAG",
+    ],
+    live: "https://rag-system-lpro.onrender.com/",
+    repo: "https://github.com/Saher-15/RAG-System",
+  },
+  {
     title: "AI Travel Planner",
-    desc: "Full-stack AI-powered travel planner with authentication, email verification, password reset, and itinerary generation using OpenAI.",
-    stack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API","Maptiler", "Mailjet", "JWT Auth"],
+    desc: "AI-powered travel planner with authentication, email verification, password reset, and itinerary generation using OpenAI.",
+    stack: ["React", "Node.js", "Express", "MongoDB", "OpenAI API", "Maptiler", "Mailjet", "JWT Auth"],
     live: "https://travelplanner-ai.netlify.app",
     repo: "https://github.com/Saher-15/Ai-Travel-Planner-Client",
   },
@@ -36,7 +49,7 @@ export function Projects() {
     <section className="section" id="projects">
       <div className="container">
         <h2 className="sectionTitle">Projects</h2>
-        
+
 
         <div className="grid3">
           {projects.map((p) => (
