@@ -5,25 +5,22 @@ export function About() {
         <h2 className="sectionTitle">About</h2>
 
         <p className="sectionSub">
-          Software Engineer with a B.Sc. degree in 2024 and an M.Sc. in Software Engineering
-          expected June 2026 (GPA 94), experienced in building modern, scalable web applications
-          using React, Node.js, Express, and MongoDB. I also develop Retrieval-Augmented Generation
-          (RAG) systems and AI workflows, and build automation using n8n. I enjoy turning real-world
-          ideas into clean, reliable features — from authentication and secure APIs to AI-powered tools,
-          email workflows, and production deployments.
+          Full-Stack Developer with a B.Sc. (2024) and M.Sc. in Software Engineering expected June 2026 (GPA 94).
+          I build production-ready web apps, RAG systems, and automation pipelines — from React frontends
+          and Node.js/FastAPI backends to AI integrations with Claude & OpenAI, deployed on AWS with Docker.
         </p>
 
         <div className="grid2">
-          
+
           <div className="card">
             <h3 style={{ marginTop: 0 }}>What I’m good at</h3>
             <ul style={{ margin: 0, color: "rgba(255,255,255,0.78)", lineHeight: 1.8 }}>
-              <li>Building responsive, modern React interfaces</li>
-              <li>Designing and structuring REST APIs with Node.js & Express</li>
-              <li>Authentication flows (JWT, secure cookies, email verification)</li>
-              <li>Integrating AI features using the OpenAI API</li>
-              <li>Working with MongoDB, schema design, and backend logic</li>
-            <li>Deploying modern web apps on Netlify & Render</li>
+              <li>Building responsive React interfaces with clean UX</li>
+              <li>Designing REST APIs with Node.js, Express & FastAPI</li>
+              <li>Authentication flows — JWT, secure cookies, email verification</li>
+              <li>Building RAG systems with Claude AI & vector databases</li>
+              <li>Automating workflows with n8n, Docker, and AWS EC2</li>
+              <li>Deploying full-stack apps to Netlify, Render & AWS</li>
               <li>Explaining technical concepts clearly (Lecturer experience)</li>
             </ul>
           </div>
@@ -31,11 +28,10 @@ export function About() {
           <div className="card">
             <h3 style={{ marginTop: 0 }}>What I’m looking for</h3>
             <p style={{ margin: 0, color: "rgba(255,255,255,0.78)", lineHeight: 1.8 }}>
-              I’m looking for a Junior Software Engineer role where I can contribute
-              to both frontend and backend development, build real production features,
-              and continue growing within a strong engineering team. I’m especially
-              interested in roles involving modern React applications, scalable Node.js
-              services, and opportunities to work with AI or automation tools.
+              I’m looking for a Software Engineer role where I can contribute to both frontend
+              and backend development, ship real production features, and grow within a strong
+              engineering team. I’m especially interested in roles involving modern React apps,
+              scalable backend services, AI integrations, or automation tools.
             </p>
           </div>
 
