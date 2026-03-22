@@ -37,6 +37,13 @@ const projects = [
     repo: "https://github.com/saher-15",
   },
   {
+    title: "TCP Chat Server",
+    desc: "Multi-client real-time chat server in C using TCP sockets and POSIX threads. Supports multiple simultaneous clients with broadcast messaging and thread-safe state management.",
+    stack: ["C", "TCP Sockets", "POSIX Threads", "Mutex", "Linux"],
+    live: null,
+    repo: "https://github.com/Saher-15/tcp-chat-server",
+  },
+  {
     title: "Bank Management System",
     desc: "Desktop banking app with full GUI for managing accounts, loans, credits, mortgages, and transfers.",
     stack: ["Java", "JavaFX", "MySQL", "JDBC"],
