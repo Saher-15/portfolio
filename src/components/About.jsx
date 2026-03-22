@@ -6,8 +6,9 @@ export function About() {
 
         <p className="sectionSub">
           Full-Stack Developer with a B.Sc. (2024) and M.Sc. in Software Engineering expected June 2026 (GPA 94).
-          I build production-ready web apps, RAG systems, and automation pipelines — from React frontends
-          and Node.js/FastAPI backends to AI integrations with Claude & OpenAI, deployed on AWS with Docker.
+          Strong CS fundamentals including Data Structures (92) and Algorithms. I build production-ready web apps,
+          RAG systems, automation pipelines, and systems-level software — from React frontends and Node.js/FastAPI
+          backends to AI integrations with Claude & OpenAI, TCP servers in C, and deployments on AWS with Docker.
         </p>
 
         <div className="grid2">
@@ -21,6 +22,7 @@ export function About() {
               <li>Building RAG systems with Claude AI & vector databases</li>
               <li>Automating workflows with n8n, Docker, and AWS EC2</li>
               <li>Deploying full-stack apps to Netlify, Render & AWS</li>
+              <li>Systems programming in C — TCP sockets, threads, mutex</li>
               <li>Explaining technical concepts clearly (Lecturer experience)</li>
             </ul>
           </div>

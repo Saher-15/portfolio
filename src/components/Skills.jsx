@@ -54,6 +54,16 @@ const skills = {
     "C#",
     "JavaFX",
   ],
+  "CS Fundamentals": [
+    "Data Structures (92)",
+    "Algorithms",
+    "TCP/IP Networking",
+    "Multi-threading",
+    "Mutex & Synchronization",
+    "Socket Programming",
+    "OOP",
+    "MVC Architecture",
+  ],
 };
 
 
