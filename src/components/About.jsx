@@ -5,8 +5,8 @@ export function About() {
         <h2 className="sectionTitle">About</h2>
 
         <p className="sectionSub">
-          Full-Stack Developer with a B.Sc. (2024) and M.Sc. in Software Engineering expected June 2026 (GPA 94).
-          Strong CS fundamentals including Data Structures (92) and Algorithms. I build production-ready web apps,
+          Full-Stack Software Engineer with a B.Sc. (2023) and M.Sc. (2025) in Software Engineering.
+          Strong CS fundamentals including Data Structures and Algorithms. I build production-ready web apps,
           RAG systems, automation pipelines, and systems-level software — from React frontends and Node.js/FastAPI
           backends to AI integrations with Claude & OpenAI, TCP servers in C, and deployments on AWS with Docker.
         </p>

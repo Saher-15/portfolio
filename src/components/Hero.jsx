@@ -17,8 +17,8 @@ export function Hero() {
             I build modern, scalable systems using JavaScript (React, Node.js), Java, Python,
             and backend technologies while also delivering AI-enabled workflows and n8n automation.
             I enjoy turning real‑world ideas into clean, reliable features — from APIs and
-            data processing to generative AI and production deployments. I graduated with a
-            B.Sc. in 2024 and will complete my M.Sc. in Software Engineering in June 2026 (GPA 94).
+            data processing to generative AI and production deployments. I hold a B.Sc. (2023)
+            and M.Sc. (2025) in Software Engineering.
           </p>
 
           <div className="actions">

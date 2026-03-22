@@ -44,6 +44,13 @@ const projects = [
     repo: "https://github.com/Saher-15/tcp-chat-server",
   },
   {
+    title: "Exam Management System",
+    desc: "Full-semester team project (6 members) — built a complete exam management system with JavaFX UI, Java backend, and full QA coverage including unit tests. Followed full SDLC from requirements to deployment.",
+    stack: ["Java", "JavaFX", "Unit Testing", "OOP", "Team Collaboration"],
+    live: null,
+    repo: "https://github.com/Saher-15",
+  },
+  {
     title: "Bank Management System",
     desc: "Desktop banking app with full GUI for managing accounts, loans, credits, mortgages, and transfers.",
     stack: ["Java", "JavaFX", "MySQL", "JDBC"],
