@@ -9,7 +9,7 @@ export function CVModal({ open, onClose }) {
         </button>
 
         <iframe
-          src="/Saher_Saadi_CV.pdf"
+          src="/Saher Saadi CV.pdf"
           title="Saher Saadi CV"
           className="cvFrame"
         />
